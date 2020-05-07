@@ -27,8 +27,7 @@ height: 40%;
 .banner .hero-body{
     background-image: url('../img/DSC_7230S.png');   
     background-repeat: no-repeat;  
-    background-size:100% 100%;  
-}
+    background-size: cover;}
 
 .banner title{
     width: 30%;
@@ -65,22 +64,22 @@ height: 40%;
     }
 
     .banner .hero-body{ 
-        background-size:100% 100%;  
+        background-position: right -90px top 0px; 
     }
 }
 
 
 /* Tablet em retrato a paisagem e desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-    .banner .content{
-        margin-top: 0;
+    .banner .hero-body{ 
+        background-position: right -150px top 0px; 
     }
 }
 
 /* Desktop grande */
 @media (min-width: 1200px) {
-   .banner .content{
-        margin-top: 0;
+    .banner .hero-body{ 
+        background-position: right 0 top 0px; 
     }
 }
 /* FIM FAIXA 1 */
@@ -291,12 +290,11 @@ height: 40%;
 
 @media (max-width: 767px) { 
     .faixa5{
-        background-size: 100% 100%;
-    }
-    .faixa5 .content{
-        margin: 1% 0 1% 0;
+        background-position: left -140px top 0px; 
+
     }
 }
+
 
 
 /* FIM FAIXA 5 */
@@ -306,6 +304,8 @@ height: 40%;
 .footer{
     background-color: #E2E2E1;
 }
+
+
 
 .footer .content{
     margin-left: 0;
