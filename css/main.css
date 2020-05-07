@@ -132,16 +132,7 @@ height: 40%;
     margin-top: 30%;
 }
 
-.banner3 .content .title{
-    font-size: 300%;
-    color: #000 ;
-    font-weight: bold;
-}
-
 .banner3 .content .subtitle{
-    color: #000;
-    font-size: 100%;
-    font-weight: normal;
     width: 90%;
     margin-top: 10%;
 }
@@ -169,6 +160,17 @@ height: 40%;
 }
 
 /* FIM FAIXA 3 */
+
+/* INICIO FAIXA 4*/
+
+.faixa4{
+    background-color: #15110E;
+}
+
+.faixa4 .content h1{
+    width: 50%;
+    margin: 0 auto;
+}
 
 /* Tablet em retrato a paisagem e desktop */
 @media (min-width: 768px) and (max-width: 979px) {
