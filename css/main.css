@@ -27,7 +27,7 @@ height: 40%;
 .banner .hero-body{
     background-image: url('../img/DSC_7230S.png');   
     background-repeat: no-repeat;  
-    background-size:100%;  
+    background-size:100% 100%;  
 }
 
 .banner title{
@@ -66,6 +66,21 @@ height: 40%;
 
     .banner .hero-body{ 
         background-size:100% 100%;  
+    }
+}
+
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .banner .content{
+        margin-top: 0;
+    }
+}
+
+/* Desktop grande */
+@media (min-width: 1200px) {
+   .banner .content{
+        margin-top: 0;
     }
 }
 /* FIM FAIXA 1 */
@@ -271,6 +286,7 @@ height: 40%;
 .faixa5{
     background-image: url('../img/Grupo 403.png');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media (max-width: 767px) { 
@@ -283,36 +299,39 @@ height: 40%;
 }
 
 
-@media (min-width: 768px) and (max-width: 979px) {
-    .faixa5{
-        background-size: 100% 100%;
-    }
-}
-
-.faixa5 .content{
-    margin: 5% 0 3% 0;
-}
-
 /* FIM FAIXA 5 */
 
 /* FOOTER */
 
+.footer{
+    background-color: #E2E2E1;
+}
+
 .footer .content{
+    margin-left: 0;
+
+}
+
+.footer .content a{
+    position: relative;
     display: flex;
-    flex-wrap: nowrap;
+    text-align: left;
+    flex-direction: column;
+}
+
+.footer .icons{
+    margin-top: 30px;
+}
+
+.footer .input{
+    width: 30%;
+}
+.footer .button{
+    width: 10%;
 }
 
 /* FIM FOOTER */
 
-/* Tablet em retrato a paisagem e desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-    /* estilos aqui */
-}
-
-/* Desktop grande */
-@media (min-width: 1200px) {
-   /* estilos aqui */
-}
 
 /* -------------- */
 
