@@ -70,7 +70,8 @@ height: 40%;
 .cards{
     padding-top: 5%;
     width: 80%;
-    margin: 0 auto
+    margin: 0 auto;
+    opacity: 0.8;
 }
 
 .card{
