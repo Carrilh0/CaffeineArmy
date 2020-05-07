@@ -42,17 +42,65 @@ height: 40%;
     font-size: 90%;
 }
 
-.conheca{
-    background-image: linear-gradient(to right, #D5BC77 0%, #E4CA7F 51%);
+.botao-padrao{
+    background: linear-gradient(to right, #D5BC77 0%, #E4CA7F 51%);
     font-weight: bold;
+}
+.botao-padrao:hover{
+    background: linear-gradient(to left, #D5BC77 0%, #E4CA7F 51%);
+    font-weight: bold;
+    transition: 1s;
+    box-shadow: 0px 0px 5px 5px #D5BC77;
+}
 
+/* ------------------ */
+
+.banner2{
+    background: #E2E2E1;
+    background-image: url('../img/Grupo 378.png');
+}
+
+.banner2 .inferior p{
+    padding-top: 5%;
+}
+.banner2 .inferior a{
+    margin-top: 2%;
+}
+
+.cards{
+    padding-top: 5%;
+    width: 80%;
+    margin: 0 auto
+}
+
+.card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+}
+
+.card .title{
+    width: auto;
+    color: #000;
+    font-size: 160%;
+}
+.card .subtitle{
+    padding-top: 10%;
+    width: auto;
+    color: #000;
+    font-size: 80%;
+}
+
+.card .content{
+    padding: 5%;
+    height: 100%;
+    min-height: 420px;
 }
 
 /* Telefones em paisagem e abaixo */
-@media (max-width: 480px) { 
+@media (max-width: 767px) { 
     .title{
         width: 100%;
-        
     }
     .subtitle{
         width: 100%;
@@ -62,20 +110,6 @@ height: 40%;
 
     .banner .hero-body{ 
         background-size:100% 100%;  
-        opacity: 0.8;
-    }
-}
-
-/* Telefones em paisagem a tablet em retrato */
-@media (max-width: 767px) {
-    .title{
-        width: 100%;
-        
-    }
-    
-    .subtitle{
-        width: 100%;
-        
     }
 }
 
