@@ -172,6 +172,138 @@ height: 40%;
     margin: 0 auto;
 }
 
+.faq{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.faq a {
+    position: relative;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 100%;
+    background-color: #31271D;
+    padding: 1rem 3rem 1rem 1rem;
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border-bottom: 1px solid #15110E;
+  }
+  
+  .faq a:hover,
+  .faq a:hover::after {
+    cursor: pointer;
+    color: rgb(211, 173, 134);
+  }
+  
+  .faq a.active {
+    color: rgb(211, 173, 134);
+    border-bottom: 1px solid rgb(211, 173, 134);
+  }
+  
+  .faq a::after {
+    font-family: 'Ionicons';
+    content: '+';
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  
+  .faq a.active::after {
+    font-family: 'Ionicons';
+    content: '-';
+    color: rgb(211, 173, 134);
+  }
+  
+  .faq .content {
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    background-color: #231C16;
+    border-bottom: 1px solid #fff;
+    overflow: hidden;
+    clear: both;
+    transition: all 0.2s ease 0.15s;
+  }
+  
+  .faq .content p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .faq .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    transition: all 0.35s ease 0.15s;
+  }
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 767px) { 
+    .faixa4 .faq{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .faixa4 .content h1{
+        width: 100%;
+    }
+    
+}
+
+/* FIM FAIXA 4 */
+
+.footer .content{
+    flex-wrap: wrap;
+}
+
+/* FAIXA 5 */
+
+.faixa5{
+    background-image: url('../img/Grupo 403.png');
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) { 
+    .faixa5{
+        background-size: 100% 100%;
+    }
+    .faixa5 .content{
+        margin: 1% 0 1% 0;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .faixa5{
+        background-size: 100% 100%;
+    }
+}
+
+.faixa5 .content{
+    margin: 5% 0 3% 0;
+}
+
+/* FIM FAIXA 5 */
+
+/* FOOTER */
+
+.footer .content{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/* FIM FOOTER */
+
 /* Tablet em retrato a paisagem e desktop */
 @media (min-width: 768px) and (max-width: 979px) {
     /* estilos aqui */
@@ -183,3 +315,4 @@ height: 40%;
 }
 
 /* -------------- */
+
