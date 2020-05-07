@@ -30,13 +30,13 @@ height: 40%;
     background-size:100%;  
 }
 
-.title{
+.banner title{
     width: 30%;
     color: #000;
     font-weight: bold;
 }
 
-.subtitle{
+.banner .subtitle{
     width: 24%;
     color: #000;
     font-size: 90%;
@@ -53,7 +53,24 @@ height: 40%;
     box-shadow: 0px 0px 5px 5px #D5BC77;
 }
 
-/* ------------------ */
+/* Telefones em paisagem e abaixo */
+@media (max-width: 767px) { 
+    .banner .title{
+        width: 100%;
+    }
+    .banner .subtitle{
+        width: 100%;
+        color: #000;
+
+    }
+
+    .banner .hero-body{ 
+        background-size:100% 100%;  
+    }
+}
+/* FIM FAIXA 1 */
+
+/* FAIXA 2 */
 
 .banner2{
     background: #E2E2E1;
@@ -98,21 +115,60 @@ height: 40%;
     min-height: 420px;
 }
 
+/* FIM FAIXA 2 */
+
+/* FAIXA 3 */
+
+.banner3{
+    background: #D6BD73;
+
+}
+
+.banner3 .produto {
+    padding-left: 15%;
+}
+
+.banner3 .content{
+    margin-top: 30%;
+}
+
+.banner3 .content .title{
+    font-size: 300%;
+    color: #000 ;
+    font-weight: bold;
+}
+
+.banner3 .content .subtitle{
+    color: #000;
+    font-size: 100%;
+    font-weight: normal;
+    width: 90%;
+    margin-top: 10%;
+}
+
+.banner3 .content .assinar{
+    display: block;
+    width: 60%;
+}
+
 /* Telefones em paisagem e abaixo */
 @media (max-width: 767px) { 
-    .title{
-        width: 100%;
-    }
-    .subtitle{
-        width: 100%;
-        color: #000;
-
+    .banner3 .content{
+        margin-top: 0;
     }
 
-    .banner .hero-body{ 
-        background-size:100% 100%;  
+    .banner3 .produto {
+        padding-left: 0;
     }
+    
+    .banner3 .title , .assinar{
+        margin: 0 auto;
+    }
+
+    
 }
+
+/* FIM FAIXA 3 */
 
 /* Tablet em retrato a paisagem e desktop */
 @media (min-width: 768px) and (max-width: 979px) {
