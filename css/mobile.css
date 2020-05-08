@@ -37,15 +37,34 @@
 /* FIM BANNER */
 
 /* FAIXA 2 */
-
+@media (max-width: 767px) { 
 .banner2 .cards .content{
     display: flex;
 }
+.banner2 .cards{
+    width: 100%;
+}
+.banner2 .cards .card .content{
+    min-height: 120px;
+    text-align: left;
 
+}
+.banner2 .cards .card .content .title{
+    font-size: 95%;
+    font-weight: bold;
+}
+.banner2 .cards .card .content .subtitle{
+    font-size: 85%;
+    padding-top: 0;
+    font-weight: 300;
+
+}
 
 .banner2 .cards img{
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
+    margin: 0 15px 0 0;
+}
 }
 
 /* FIM FAIXA 2 */
