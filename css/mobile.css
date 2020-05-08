@@ -78,6 +78,36 @@ nav .login{
 
 /* FIM FAIXA 2 */
 
+/* FAIXA 3 */
+
+@media (max-width: 767px) { 
+    .banner3 .content{
+        margin-top: 0;
+    }
+
+    .banner3 .produto {
+        padding-left: 0;
+    }
+    
+    .banner3 .title , .assinar{
+        margin: 0 auto;
+    }
+
+    .banner3 .title{
+        font-size: 185%;
+    }
+    .banner3 .subtitle{
+        text-align: center;
+        font-size: 100%;
+    }
+    .banner3 .assinar{
+        width: 100% !important;
+    }
+
+}
+
+/* FIM FAIXA 3 */
+
 /* FAIXA 4 */
 
 @media (max-width: 767px) { 

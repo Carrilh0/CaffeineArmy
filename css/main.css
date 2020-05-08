@@ -143,21 +143,7 @@ height: 40%;
 }
 
 /* Telefones em paisagem e abaixo */
-@media (max-width: 767px) { 
-    .banner3 .content{
-        margin-top: 0;
-    }
 
-    .banner3 .produto {
-        padding-left: 0;
-    }
-    
-    .banner3 .title , .assinar{
-        margin: 0 auto;
-    }
-
-    
-}
 
 /* FIM FAIXA 3 */
 
