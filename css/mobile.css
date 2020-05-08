@@ -49,29 +49,29 @@ nav .login{
 
 /* FAIXA 2 */
 @media (max-width: 767px) { 
-.banner2 .cards .content{
+.faixa2 .cards .content{
     display: flex;
 }
-.banner2 .cards{
+.faixa2 .cards{
     width: 100%;
 }
-.banner2 .cards .card .content{
+.faixa2 .cards .card .content{
     min-height: 120px;
     text-align: left;
 
 }
-.banner2 .cards .card .content .title{
+.faixa2 .cards .card .content .title{
     font-size: 95%;
     font-weight: bold;
 }
-.banner2 .cards .card .content .subtitle{
+.faixa2 .cards .card .content .subtitle{
     font-size: 85%;
     padding-top: 0;
     font-weight: 300;
 
 }
 
-.banner2 .cards img{
+.faixa2 .cards img{
     width: 30%;
     height: 30%;
     margin: 0 15px 0 0;
@@ -83,26 +83,26 @@ nav .login{
 /* FAIXA 3 */
 
 @media (max-width: 767px) { 
-    .banner3 .content{
+    .faixa3 .content{
         margin-top: 0;
     }
 
-    .banner3 .produto {
+    .faixa3 .produto {
         padding-left: 0;
     }
     
-    .banner3 .title , .assinar{
+    .faixa3 .title , .assinar{
         margin: 0 auto;
     }
 
-    .banner3 .title{
+    .faixa3 .title{
         font-size: 185%;
     }
-    .banner3 .subtitle{
+    .faixa3 .subtitle{
         text-align: center;
         font-size: 100%;
     }
-    .banner3 .assinar{
+    .faixa3 .assinar{
         width: 100% !important;
     }
 

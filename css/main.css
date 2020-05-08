@@ -72,15 +72,15 @@ height: 40%;
 
 /* FAIXA 2 */
 
-.banner2{
+.faixa2{
     background: #E2E2E1;
     background-image: url('../img/Grupo 378.png');
 }
 
-.banner2 .inferior p{
+.faixa2 .inferior p{
     padding-top: 5%;
 }
-.banner2 .inferior a{
+.faixa2 .inferior a{
     margin-top: 2%;
 }
 
@@ -119,25 +119,25 @@ height: 40%;
 
 /* FAIXA 3 */
 
-.banner3{
+.faixa3{
     background: #D6BD73;
 
 }
 
-.banner3 .produto {
+.faixa3 .produto {
     padding-left: 15%;
 }
 
-.banner3 .content{
+.faixa3 .content{
     margin-top: 30%;
 }
 
-.banner3 .content .subtitle{
+.faixa3 .content .subtitle{
     width: 90%;
     margin-top: 10%;
 }
 
-.banner3 .content .assinar{
+.faixa3 .content .assinar{
     display: block;
     width: 60%;
 }
