@@ -275,14 +275,9 @@ height: 40%;
 }
 
 .faixa5 .content{
-    margin: 10% auto;
+    margin: 5% auto;
 }
 
-@media (max-width: 767px) { 
-    .faixa5{
-        background-position: left -140px top 0px; 
-    }
-}
 
 
 

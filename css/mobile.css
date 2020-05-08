@@ -35,26 +35,43 @@
 }
 
 /* FIM BANNER */
-/* FAIXA 3 */
 
+/* FAIXA 2 */
+
+.banner2 .cards .content{
+    display: flex;
+}
+
+
+.banner2 .cards img{
+    width: 50%;
+    height: 50%;
+}
+
+/* FIM FAIXA 2 */
+
+
+/* FAIXA 5 */
 @media (max-width: 767px) { 
-    .faixa3_titulo_desktop{
-        display: none;
-    }
+.faixa5{
+    background-image: url('../img/mobile/DSC_7199.png');
+    background-repeat: no-repeat;
+    background-size: 120% 110%;
+    background-position: left -20px top 0px; 
+    filter: sepia(50%) saturate(150%);
+}
 
-    .banner3 .subtitle{
-        font-size: 100%;
-        text-align: center;
-    }
+.faixa5 .title{
+    font-size: 25pt;
+}
 
-    .banner3 .button{
-        width: 100% !important;
-    }
 }
 @media (min-width: 767px) { 
-    .faixa3_titulo_mobile{
-        display: none;
-    }
-}
 
-/* FAIXA 3 */
+.faixa5{
+    background-image: url('../img/Grupo 403.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+/* FIM FAIXA 5 */
