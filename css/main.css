@@ -24,11 +24,6 @@ height: 40%;
 
 /* FAIXA 1 */
 
-.banner .hero-body{
-    background-image: url('../img/DSC_7230S.png');   
-    background-repeat: no-repeat;  
-    background-size: cover;}
-
 .banner title{
     width: 30%;
     color: #000;
@@ -61,10 +56,6 @@ height: 40%;
         width: 100%;
         color: #000;
 
-    }
-
-    .banner .hero-body{ 
-        background-position: right -90px top 0px; 
     }
 }
 
