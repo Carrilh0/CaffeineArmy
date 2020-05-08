@@ -53,7 +53,7 @@ height: 40%;
 }
 
 /* Telefones em paisagem e abaixo */
-@media (max-width: 767px) { 
+@media (max-width: 590px) { 
     .banner .title{
         width: 100%;
     }
@@ -70,18 +70,13 @@ height: 40%;
 
 
 /* Tablet em retrato a paisagem e desktop */
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 591px) and (max-width: 979px) {
     .banner .hero-body{ 
         background-position: right -150px top 0px; 
     }
 }
 
-/* Desktop grande */
-@media (min-width: 1200px) {
-    .banner .hero-body{ 
-        background-position: right 0 top 0px; 
-    }
-}
+
 /* FIM FAIXA 1 */
 
 /* FAIXA 2 */
@@ -327,10 +322,11 @@ height: 40%;
 }
 
 .footer .input{
-    width: 30%;
+    width: 40%;
+    margin-left: 5%;
 }
 .footer .button{
-    width: 10%;
+    width: 5%;
 }
 
 /* FIM FOOTER */
