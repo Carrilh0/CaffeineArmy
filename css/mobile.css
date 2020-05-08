@@ -94,3 +94,23 @@
 }
 }
 /* FIM FAIXA 5 */
+
+/* FOOTER */
+
+@media (max-width: 767px) { 
+    .footer{
+        padding: 20px;
+    }
+    .footer .content .links a{
+        text-align: center;
+    }
+
+    .footer .content .newsletter{
+        margin: 20px auto;
+    }
+    .footer .content .newsletter p{
+        text-align: center;
+    }
+}
+
+/* FIM FOOTER */
