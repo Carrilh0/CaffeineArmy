@@ -100,9 +100,20 @@
 @media (max-width: 767px) { 
     .footer{
         padding: 20px;
+        display: flex;
+        justify-content: center;
+        color: #000;
     }
     .footer .content .links a{
         text-align: center;
+    }
+
+    .footer .content .inputs{
+        display: flex;
+        justify-content: center;
+    }
+    .footer .content .inputs .input{
+        width: 80%;
     }
 
     .footer .content .newsletter{
@@ -110,6 +121,20 @@
     }
     .footer .content .newsletter p{
         text-align: center;
+        margin-bottom: 0;
+    }
+
+    .footer .content .icons{
+        display: flex;
+        justify-content: center;
+        padding: 1px;
+    }
+    .footer .content .icons i{
+        padding: 5px;
+    }
+    .footer .content .end_footer a{
+        text-align: center;
+
     }
 }
 
