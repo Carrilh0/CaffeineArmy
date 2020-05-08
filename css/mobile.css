@@ -1,0 +1,19 @@
+@media (max-width: 767px) { 
+    .faixa3_titulo_desktop{
+        display: none;
+    }
+
+    .banner3 .subtitle{
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .banner3 .button{
+        width: 100% !important;
+    }
+}
+@media (min-width: 767px) { 
+    .faixa3_titulo_mobile{
+        display: none;
+    }
+}
