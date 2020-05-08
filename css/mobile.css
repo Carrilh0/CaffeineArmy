@@ -69,6 +69,15 @@
 
 /* FIM FAIXA 2 */
 
+/* FAIXA 4 */
+
+@media (max-width: 767px) { 
+    .faixa4 .title{
+        font-size: 200%;
+    }
+}
+
+/* FIM FAIXA 4 */
 
 /* FAIXA 5 */
 @media (max-width: 767px) { 
